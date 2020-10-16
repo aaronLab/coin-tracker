@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  Coin Tracker
-//
-//  Created by Aaron Lee on 2020-10-16.
-//
 
 import SwiftUI
 
