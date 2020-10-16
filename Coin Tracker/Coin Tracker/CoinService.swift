@@ -10,7 +10,7 @@ final class CoinService {
         var component = URLComponents()
         component.scheme = "https"
         component.host = "api.coinranking.com"
-        component.path = "v1/public/coins"
+        component.path = "/v1/public/coins"
         component.queryItems = [
             URLQueryItem(name: "base", value: "USD"),
             URLQueryItem(name: "timePeriod", value: "7d"),

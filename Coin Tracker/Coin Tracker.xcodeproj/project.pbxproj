@@ -21,6 +21,10 @@
 		A473F8D32539EC2500BEBC52 /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8D22539EC2500BEBC52 /* CoinListViewModel.swift */; };
 		A473F8D62539EDA700BEBC52 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8D52539EDA700BEBC52 /* Color+Extension.swift */; };
 		A473F8D92539F05E00BEBC52 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8D82539F05E00BEBC52 /* Double+Extension.swift */; };
+		A473F8DC2539F3CF00BEBC52 /* NeumoriphicShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8DB2539F3CF00BEBC52 /* NeumoriphicShadow.swift */; };
+		A473F8DF2539F46400BEBC52 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8DE2539F46400BEBC52 /* LineGraph.swift */; };
+		A473F8E22539F5B100BEBC52 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8E12539F5B100BEBC52 /* GraphView.swift */; };
+		A473F8E52539F68800BEBC52 /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8E42539F68800BEBC52 /* CoinCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		A473F8D22539EC2500BEBC52 /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
 		A473F8D52539EDA700BEBC52 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		A473F8D82539F05E00BEBC52 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		A473F8DB2539F3CF00BEBC52 /* NeumoriphicShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumoriphicShadow.swift; sourceTree = "<group>"; };
+		A473F8DE2539F46400BEBC52 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		A473F8E12539F5B100BEBC52 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		A473F8E42539F68800BEBC52 /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				A473F8A72539E4C400BEBC52 /* ContentView.swift */,
+				A473F8E12539F5B100BEBC52 /* GraphView.swift */,
+				A473F8E42539F68800BEBC52 /* CoinCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 		A473F8C12539E58100BEBC52 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				A473F8DB2539F3CF00BEBC52 /* NeumoriphicShadow.swift */,
+				A473F8DE2539F46400BEBC52 /* LineGraph.swift */,
 			);
 			name = Controls;
 			sourceTree = "<group>";
@@ -226,16 +238,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A473F8D32539EC2500BEBC52 /* CoinListViewModel.swift in Sources */,
+				A473F8E52539F68800BEBC52 /* CoinCell.swift in Sources */,
 				A473F8D62539EDA700BEBC52 /* Color+Extension.swift in Sources */,
 				A473F8CA2539E9B500BEBC52 /* CoinData.swift in Sources */,
 				A473F8A42539E4C400BEBC52 /* AppDelegate.swift in Sources */,
 				A473F8A62539E4C400BEBC52 /* SceneDelegate.swift in Sources */,
 				A473F8D92539F05E00BEBC52 /* Double+Extension.swift in Sources */,
 				A473F8D02539EC1800BEBC52 /* CoinViewModel.swift in Sources */,
+				A473F8DF2539F46400BEBC52 /* LineGraph.swift in Sources */,
 				A473F8C32539E62C00BEBC52 /* CoinService.swift in Sources */,
+				A473F8E22539F5B100BEBC52 /* GraphView.swift in Sources */,
 				A473F8A82539E4C400BEBC52 /* ContentView.swift in Sources */,
 				A473F8C72539E99D00BEBC52 /* CoinResponse.swift in Sources */,
 				A473F8CD2539E9C800BEBC52 /* Coin.swift in Sources */,
+				A473F8DC2539F3CF00BEBC52 /* NeumoriphicShadow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
