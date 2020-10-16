@@ -17,6 +17,10 @@
 		A473F8C72539E99D00BEBC52 /* CoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8C62539E99D00BEBC52 /* CoinResponse.swift */; };
 		A473F8CA2539E9B500BEBC52 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8C92539E9B500BEBC52 /* CoinData.swift */; };
 		A473F8CD2539E9C800BEBC52 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8CC2539E9C800BEBC52 /* Coin.swift */; };
+		A473F8D02539EC1800BEBC52 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8CF2539EC1800BEBC52 /* CoinViewModel.swift */; };
+		A473F8D32539EC2500BEBC52 /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8D22539EC2500BEBC52 /* CoinListViewModel.swift */; };
+		A473F8D62539EDA700BEBC52 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8D52539EDA700BEBC52 /* Color+Extension.swift */; };
+		A473F8D92539F05E00BEBC52 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F8D82539F05E00BEBC52 /* Double+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		A473F8C62539E99D00BEBC52 /* CoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinResponse.swift; sourceTree = "<group>"; };
 		A473F8C92539E9B500BEBC52 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 		A473F8CC2539E9C800BEBC52 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		A473F8CF2539EC1800BEBC52 /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		A473F8D22539EC2500BEBC52 /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
+		A473F8D52539EDA700BEBC52 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		A473F8D82539F05E00BEBC52 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,8 @@
 		A473F8BE2539E55D00BEBC52 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				A473F8CF2539EC1800BEBC52 /* CoinViewModel.swift */,
+				A473F8D22539EC2500BEBC52 /* CoinListViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -132,6 +142,8 @@
 		A473F8C02539E57C00BEBC52 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A473F8D52539EDA700BEBC52 /* Color+Extension.swift */,
+				A473F8D82539F05E00BEBC52 /* Double+Extension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -213,9 +225,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A473F8D32539EC2500BEBC52 /* CoinListViewModel.swift in Sources */,
+				A473F8D62539EDA700BEBC52 /* Color+Extension.swift in Sources */,
 				A473F8CA2539E9B500BEBC52 /* CoinData.swift in Sources */,
 				A473F8A42539E4C400BEBC52 /* AppDelegate.swift in Sources */,
 				A473F8A62539E4C400BEBC52 /* SceneDelegate.swift in Sources */,
+				A473F8D92539F05E00BEBC52 /* Double+Extension.swift in Sources */,
+				A473F8D02539EC1800BEBC52 /* CoinViewModel.swift in Sources */,
 				A473F8C32539E62C00BEBC52 /* CoinService.swift in Sources */,
 				A473F8A82539E4C400BEBC52 /* ContentView.swift in Sources */,
 				A473F8C72539E99D00BEBC52 /* CoinResponse.swift in Sources */,

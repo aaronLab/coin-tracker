@@ -4,8 +4,6 @@ import Combine
 
 final class CoinService {
 
-    // let url = URL(string: "https://api.coinranking.com/v1/public/coins?base=USD&timePeriod=7d&symbols=btc,eth,usdt,xrp,bch,ada,ltc,cro")
-
     let symbols = ["btc", "eth", "usdt", "xrp", "bch", "ada", "ltc", "cro"]
 
     lazy var urlComponents: URLComponents = {
